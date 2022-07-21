@@ -15,7 +15,7 @@ const TheirProfile = () => {
             thirdImg: 'girl_pic.jpg'
         }
     ])
-
+ 
     return (
         <div className="TheirProfile">
             {people.map((person) => (
