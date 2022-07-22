@@ -4,13 +4,14 @@
     justify-content: space-between;
     z-index: 100;
     border-bottom: 1px solid black;
+    height: 300px;
 }
 
-.header_log{
+.header_logo{
     object-fit: contain;
     height: 40px;
 }
 
 .header_icon{
-    padding: 20px;
+    padding: 10px;
 }
