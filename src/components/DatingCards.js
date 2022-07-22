@@ -39,7 +39,12 @@ const DatingCards = () => {
             <div className="datingCards_container">
                 {people.map((person) => (
                     <DatingCard className="swipe" key={person.name} preventSwipe={['up', 'down']} onSwipe={(dir) => swiped(dir, person.name)} onCardLeftScreen = {() => outOfFrame(person.name)}>
-                        <div style={{backgroundImage: `url(${person.imgUrl})`}} className='card'>
+                        <div className='card'>
+                     
+                            
+                                    <iframe width="400" height="400" src="https://www.youtube.com/embed/0bomkgXeDkE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                             
+                       
                             <h3>{person.name}</h3>
                         </div>
                     </DatingCard>
@@ -50,3 +55,4 @@ const DatingCards = () => {
 }
 
 export default DatingCards
+//style={{backgroundImage: `url(${person.imgUrl})`}} 
