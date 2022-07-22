@@ -7,19 +7,19 @@ const DatingCards = () => {
     const [people, setPeople] = useState([
         {
             name: 'Random Guy', 
-            imgUrl: 'boy_pic.jpg'
+            vidUrl: 'https://www.youtube.com/embed/0bomkgXeDkE'
         },
         {
             name: 'Another Guy',
-            imgUrl: 'boy_pic.jpg'
+            vidUrl: 'https://www.youtube.com/embed/0bomkgXeDkE'
         },
         {
             name: 'Random Girl',
-            imgUrl: 'girl_pic.jpg'
+            vidUrl: 'https://www.youtube.com/embed/3zgFRFom6uA'
         },
         {
             name: "Another Girl",
-            imgUrl: 'girl_pic.jpg'
+            vidUrl: 'https://www.youtube.com/embed/3zgFRFom6uA'
         }
     ])
 
@@ -42,7 +42,7 @@ const DatingCards = () => {
                         <div className='card'>
                      
                             
-                                    <iframe width="400" height="400" src="https://www.youtube.com/embed/0bomkgXeDkE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                    <iframe width="300" height="400" src={person.vidUrl} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                              
                        
                             <h2>{person.name}</h2>
