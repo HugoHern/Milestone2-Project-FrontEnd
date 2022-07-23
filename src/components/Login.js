@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+import { Outlet, Link, Routes, Route } from "react-router-dom";
+import DatingCards from "./DatingCards";
 
 import "./Login.css";
 
@@ -71,17 +73,26 @@ function App() {
           {renderErrorMessage("pass")}
         </div>
         <div className="button-container">
-          <input type="submit" />
+         <input type="submit" /> 
         </div>
       </form>
     </div>
   );
 
+  //jsx code to render next page
+  const nextPage = (
+    <div>
+      Logged in
+      <Link to="/matches">HEART OR BUST</Link>
+      {console.log('load next page')}
+    </div>
+  )
+
   return (
     <div className="app">
       <div className="login-form">
         <div className="title">Sign In</div>
-        {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+        {isSubmitted ? nextPage : renderForm}
       </div>
     </div>
   );
