@@ -7,15 +7,15 @@ import Header from './components/Header.js';
 import DatingCards from './components/DatingCards.js'
 import TheirProfile from './components/TheirProfile';
 import Login from './components/Login'
-
+import Home from './components/Home.js'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<div>LOG IN OR SIGN UP</div>}/>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home/>}/>
+          <Route path="login" element={<Login />} />
           <Route path='signup' element={<Signup/>}/>
           <Route path='matches' element={<DatingCards/>}/>
           <Route path="*" element={<div>404</div>} />

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { Outlet, Link, Routes, Route } from "react-router-dom";
-import DatingCards from "./DatingCards";
+
 
 import "./Login.css";
 
@@ -83,8 +83,7 @@ function App() {
   const nextPage = (
     <div>
       Logged in
-      <Link to="/matches">HEART OR BUST</Link>
-      {console.log('load next page')}
+      <div><Link to="/matches">HEART OR BUST</Link></div>
     </div>
   )
 
