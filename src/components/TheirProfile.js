@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import './TheirProfile.css'
 import DatingCards from "./DatingCards";
 import PersonIcon from '@material-ui/icons/Person'
 import IconButton  from "@material-ui/core/IconButton";

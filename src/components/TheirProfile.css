@@ -1,0 +1,21 @@
+.TheirProfile {
+    border-radius: 15px;
+    padding: 2vh 2vw;
+    z-index: 2;
+    position: absolute;
+    left: 35vw;
+    top: 25vh;
+    background-size: cover;
+    background-color: #063DAA;
+    color: #FFAA00;
+}
+
+/* .close{
+    position: absolute;
+    top: 0.75vh;
+    right: 0.75vw;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    color: #FFAA00;
+} */
