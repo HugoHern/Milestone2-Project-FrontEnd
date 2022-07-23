@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 import Signup from './components/Signup.js'
 import Header from './components/Header.js';
 import DatingCards from './components/DatingCards.js'
-import TheirProfile from './components/TheirProfile';
+import TheirProfile from './components/TheirProfile.js';
 import Login from './components/Login'
 import Home from './components/Home.js'
 
@@ -18,6 +18,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path='signup' element={<Signup/>}/>
           <Route path='matches' element={<DatingCards/>}/>
+          <Route path='profile' element={<TheirProfile/>}/>
           <Route path="*" element={<div>404</div>} />
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./Signup.css";
 
 function Signup() {
@@ -12,7 +12,7 @@ function Signup() {
     // Compare user info
   };
 
-  // JSX code for login form
+  // JSX code for login form  --- Links to matches but need to go to profile page
   const renderForm = (
     <div className="form">
       <form onSubmit={handleSubmit}>
@@ -25,7 +25,7 @@ function Signup() {
           <input type="password" name="pass" required />
         </div>
         <div className="button-container">
-          <input type="submit" />
+          <Link to='/matches'><input type="submit" /></Link>
         </div>
       </form>
     </div>

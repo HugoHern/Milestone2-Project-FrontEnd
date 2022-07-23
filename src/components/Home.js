@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link, Routes, Route } from "react-router-dom";
 
+// LANDING PAGE - buttons to log in or sign up
 function Home() {
   return (
     <div>
