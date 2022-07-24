@@ -8,6 +8,8 @@ function Home() {
       <div><Link to="/login">LOG IN</Link></div>
 
       <div><Link to="/signup">SIGN UP</Link></div>
+
+      <div><Link to="/admin">ADMIN CONTROLS</Link></div>
     </div>
   );
 }

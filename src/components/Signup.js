@@ -25,7 +25,7 @@ function Signup() {
           <input type="password" name="pass" required />
         </div>
         <div className="button-container">
-          <Link to='/matches'><input type="submit" /></Link>
+          <Link to='/profile'><input type="submit" /></Link>
         </div>
       </form>
     </div>

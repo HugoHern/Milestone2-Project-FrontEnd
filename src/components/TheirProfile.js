@@ -4,6 +4,7 @@ import PersonIcon from '@material-ui/icons/Person'
 import IconButton  from "@material-ui/core/IconButton";
 import ForumIcon from '@material-ui/icons/Forum'
 import { FiberPinRounded } from "@material-ui/icons";
+import './TheirProfile.css'
 
 function TheirProfile() {
     //state for temporary data of people.
@@ -32,6 +33,8 @@ function TheirProfile() {
                 </div>
             ))}
                 <h4>Bio: lorem Ipsum</h4>
+
+                {console.log('loading profile')}
         </div>
     )
 } 
