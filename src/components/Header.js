@@ -10,7 +10,6 @@ import Chatroom from "./Chatroom";
 const Header = () => {
     return (
         <div className="Header">
-
                 <IconButton>
                     <Link to="/profile">
                         <PersonIcon fontSize="large" className="header_icon"/>
@@ -24,7 +23,6 @@ const Header = () => {
                         <ForumIcon fontSize="large" className="header_icon"/>
                     </Link>
                 </IconButton>
-            
         </div>
     )
 }

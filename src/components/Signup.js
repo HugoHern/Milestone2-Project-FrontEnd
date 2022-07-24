@@ -1,5 +1,6 @@
 import { render } from "@testing-library/react";
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import "./Signup.css";
 
@@ -25,7 +26,9 @@ function Signup() {
           <input type="password" name="pass" required />
         </div>
         <div className="button-container">
-          <input type="submit" />
+          <Link to="/data">
+            <input type="submit" />
+          </Link>
         </div>
       </form>
     </div>

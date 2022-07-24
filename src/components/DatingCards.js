@@ -3,6 +3,8 @@ import DatingCard from 'react-tinder-card'
 import { Outlet, Link, Routes, Route } from "react-router-dom";
 import Header from './Header.js';
 import './DatingCards.css'
+import IconButton  from "@material-ui/core/IconButton";
+import DetailsIcon from '@material-ui/icons/Details'
 
 const DatingCards = () => {
     //state for temporary data of people.
@@ -60,6 +62,11 @@ const DatingCards = () => {
                   ></iframe>
 
                   <h2>{person.name}</h2>
+                  <IconButton>
+                    <Link to="/match">
+                      <DetailsIcon fontSize="large" className="details_icon" color="white" />
+                    </Link>
+                  </IconButton>
                 </div>
               </DatingCard>
             ))}
