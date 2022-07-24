@@ -35,6 +35,7 @@ const YourProfile = () => {
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 ></iframe>
+                <input type="file" />
                 <div className="photos">
                   <img
                     class='photo'
@@ -42,12 +43,14 @@ const YourProfile = () => {
                     height={100}
                     width={100}
                   />
+                  <input type="file" />
                   <img
                     class='photo'
                     src={"https://place-puppy.com/100x100"}
                     height={100}
                     width={100}
                   />
+                  <input type="file" />
                   {/* Put bio here */}
                 </div>
               </div>

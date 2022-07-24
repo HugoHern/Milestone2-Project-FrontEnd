@@ -8,6 +8,7 @@ import React, { useState } from "react";
 //import ChatBox, { ChatFrame } from "react-chat-plugin";
 import ChatBox from "react-chat-plugin";
 import './Chatroom.css'
+import Header from "./Header";
 
 
 function ChatRoom() {
@@ -77,6 +78,7 @@ function ChatRoom() {
 
   return (
     <div className="app">
+      <Header />
       <ChatBox
         messages={messages}
         userId={1}

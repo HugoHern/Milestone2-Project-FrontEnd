@@ -12,9 +12,13 @@ const Header = () => {
         <div className="Header">
 
                 <IconButton>
-                    <PersonIcon fontSize="large" className="header_icon"/>
+                    <Link to="/profile">
+                        <PersonIcon fontSize="large" className="header_icon"/>
+                    </Link>
                 </IconButton>
-                <img className="header_logo" src="logo192.png" alt="header"/>
+                    <Link to="/matches">
+                        <img className="header_logo" src="logo192.png" alt="header"/>
+                    </Link>
                 <IconButton>
                     <Link to="/chat">
                         <ForumIcon fontSize="large" className="header_icon"/>

@@ -1,7 +1,7 @@
 .datingCards_container{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 10vh;
     position: relative;
 }
 

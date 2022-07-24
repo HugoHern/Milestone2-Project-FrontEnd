@@ -11,6 +11,7 @@ import Login from "./components/Login";
 import Home from "./components/Home.js";
 import YourProfile from "./components/YourProfile.js";
 import DataCollection from "./components/DataCollection";
+import YourEdit from "./components/YourEdit";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="match" element={<TheirProfile />} />
           <Route path="chat" element={<Chatroom />} />
           <Route path="profile" element={<YourProfile />} />
+          <Route path="edit" element={<YourEdit />} />
           <Route path="*" element={<div>404</div>} />
         </Routes>
       </BrowserRouter>

@@ -15,3 +15,10 @@
 .header_icon{
     padding: 10px;
 }
+
+.yourHeader h2{
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 0px;
+}
