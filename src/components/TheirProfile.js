@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import DatingCard from 'react-tinder-card'
-import { Outlet, Link, Routes, Route } from "react-router-dom";
 import Header from './Header.js';
 import './DatingCards.css'
 
@@ -35,12 +34,14 @@ const DatingCards = () => {
                   <div className="photos">
                     <img
                     src={"https://place-puppy.com/100x100"}
+                    alt="potential match photo1"
                     height={100}
                     width={100}
                     />
                     <img
                     className="photo"
                     src={"https://place-puppy.com/100x100"}
+                    alt="potential match photo2"
                     height={100}
                     width={100}
                     />

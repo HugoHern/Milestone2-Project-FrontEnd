@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import DatingCard from "react-tinder-card";
-import { Outlet, Link, Routes, Route } from "react-router-dom";
 import Header from "./Header.js";
 import "./YourProfile.css";
 import YourHeader from "./YourHeader.js";
@@ -21,7 +20,7 @@ const YourProfile = () => {
     <div>
       <Header />
       <div className="datingCards">
-      <YourHeader />
+        <YourHeader />
         <div className="datingCards_container">
           {people.map((person) => (
             <DatingCard className="swipe">
@@ -39,12 +38,14 @@ const YourProfile = () => {
                   <img
                     class='photo'
                     src={"https://place-puppy.com/100x100"}
+                    alt="potential match photo1"
                     height={100}
                     width={100}
                   />
                   <img
                     class='photo'
                     src={"https://place-puppy.com/100x100"}
+                    alt="potential match photo2"
                     height={100}
                     width={100}
                   />

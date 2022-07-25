@@ -1,8 +1,7 @@
 /*   https://contactmentor.com/login-form-react-js-code/  */
 
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import { Outlet, Link, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 import "./Login.css";

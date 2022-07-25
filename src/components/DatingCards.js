@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import DatingCard from 'react-tinder-card'
-import { Outlet, Link, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Header from './Header.js';
 import './DatingCards.css'
 import IconButton  from "@material-ui/core/IconButton";

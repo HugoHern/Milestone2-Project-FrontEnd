@@ -1,9 +1,8 @@
 // switching to development branch
 import "./App.css";
-import { useEffect, useState, Fragment } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./components/Signup.js";
-import Header from "./components/Header.js";
 import DatingCards from "./components/DatingCards.js";
 import TheirProfile from "./components/TheirProfile.js";
 import Chatroom from "./components/Chatroom";
