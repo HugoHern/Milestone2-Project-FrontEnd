@@ -1,24 +1,22 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
-    border-bottom: 1px solid black;
-    height: 300px;
+body {
+    background-color: #FFAA00;
 }
 
-.header_logo{
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    background-color: #063DAA ;
+}
+
+img {
     object-fit: contain;
-    height: 40px;
+    height: 6vh;
 }
 
 .header_icon{
-    padding: 10px;
-}
-
-.yourHeader h2{
-    display: inline-block;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 0px;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFAA00;
 }

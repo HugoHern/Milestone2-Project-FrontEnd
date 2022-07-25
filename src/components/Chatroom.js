@@ -30,7 +30,7 @@ function ChatRoom() {
       timestamp: 1578366393250,
     },
     {
-      author: { username: "RandomGirl", id: 2, avatarUrl: "/logo192.png" },
+      author: { username: "RandomGirl", id: 2, avatarUrl: "/logo512.png" },
       text: "Show two buttons",
       type: "text",
       timestamp: 1578366425250,
@@ -67,7 +67,7 @@ function ChatRoom() {
         author: {
           username: "user1",
           id: 1,
-          avatarUrl: "/logo192.png",
+          avatarUrl: "/logo512.png",
         },
         text: message,
         timestamp: +new Date(),
@@ -83,8 +83,8 @@ function ChatRoom() {
         messages={messages}
         userId={1}
         onSendMessage={handleOnSendMessage}
-        width={"500px"}
-        height={"500px"}
+        width={"100vw"}
+        height={"90vh"}
       />
     </div>
   );

@@ -16,7 +16,7 @@ const Header = () => {
                     </Link>
                 </IconButton>
                     <Link to="/matches">
-                        <img className="header_logo" src="logo192.png" alt="header"/>
+                        <img className="header_logo" src="logo512.png" alt="header"/>
                     </Link>
                 <IconButton>
                     <Link to="/chat">

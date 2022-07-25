@@ -38,3 +38,8 @@
 .details_icon{
     padding: 10px;
 }
+
+.details_icon {
+    text-decoration: none;
+    color: #FFAA00;
+}
