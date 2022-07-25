@@ -5,7 +5,7 @@ import './DatingCards.css'
 
 const DatingCards = () => {
     //state for temporary data of people.
-    const [people, setPeople] = useState([
+    const [people] = useState([
         {
             name: 'Random Guy', 
             vidUrl: 'https://www.youtube.com/embed/0bomkgXeDkE'
