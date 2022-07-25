@@ -2,19 +2,20 @@
     display: flex;
     justify-content: center;
     margin-top: 10vh;
+    position: relative;
 }
 
 .card{
     position: relative;
-    background-color: white;
-    width: 600px;
+    background-color: rgba(14, 61, 164);
+    width: 800px;
     height: 400px;
     padding: 20px;
     max-width: 85vh;
-    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .swipe {
@@ -27,9 +28,18 @@
     height: 100%;
 }
 
-.card h3 {
-    position: absolute;
-    bottom: 0;
-    margin: 10px;
-    color: white;
+.card h2 {
+    position: relative;
+    bottom: 10px;
+    margin: 0px;
+    color: #FFAA00;
+}
+
+.details_icon{
+    padding: 10px;
+}
+
+.details_icon {
+    text-decoration: none;
+    color: #FFAA00;
 }

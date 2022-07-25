@@ -1,0 +1,41 @@
+.datingCards_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    background-color: rgba(14, 61, 164);
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    max-width: 85vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.photos{
+    padding-top: 5px;
+}
+
+.photo{
+    padding: 5px;
+}
+
+
+.cardContent {
+    width: 100%;
+    height: 100%;
+}
+
+.card h2 {
+    position: relative;
+    bottom: 10px;
+    margin: 0px;
+    color: #FFAA00;
+    padding: 20px;
+}
