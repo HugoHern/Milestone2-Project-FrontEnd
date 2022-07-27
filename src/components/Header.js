@@ -1,27 +1,24 @@
 import React from "react";
 import './Header.css'
-import PersonIcon from '@material-ui/icons/Person'
 import { Link } from "react-router-dom"; 
-import IconButton  from "@material-ui/core/IconButton";
-import ForumIcon from '@material-ui/icons/Forum';
 
 //will return two temporary icons at the top of the page but are not functional
 const Header = () => {
     return (
         <div className="Header">
-                <IconButton>
+                
                     <Link to="/profile">
-                        <PersonIcon fontSize="large" className="header_icon"/>
+                    <img className="header_logo" src="profile.png" alt="header"/>
                     </Link>
-                </IconButton>
+                
                     <Link to="/matches">
                         <img className="header_logo" src="logo512.png" alt="header"/>
                     </Link>
-                <IconButton>
+                
                     <Link to="/chat">
-                        <ForumIcon fontSize="large" className="header_icon"/>
+                    <img className="header_logo" src="icon.webp" alt="header"/>
                     </Link>
-                </IconButton>
+                
         </div>
     )
 }
